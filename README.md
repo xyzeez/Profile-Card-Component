@@ -31,8 +31,8 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 - [Mobile](./images/screenshots/mobile.png)
 - [Desktop](./images/screenshots/desktop.png)
-![](./images/screenshots/desktop-preview.jpg)
-![](./images/screenshots/desktop.png)
+
+
 ## My process
 
 ### Built with
