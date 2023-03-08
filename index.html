@@ -11,29 +11,25 @@
     <body>
         <main>
             <h1 class="sr-only">This is a Profile Card Component</h1>
-            <article class="card profile">
-                <div class="profile__info">
-                    <img class="profile__image" src="./images/image-victor.jpg" alt="User Image">
-                    <div class="profile__identity">
-                        <h2 class="identity__name">Victor Crest</h2>
-                        <p class="identity__age">26</p>
-                    </div>
-                    <p class="profile__location">London</p>
+            <article class="profile-card">
+                <img class="profile-card__avatar" src="./images/image-victor.jpg" alt="Victor Crest Avatar">
+                <div class="profile-card__header">
+                    <h2 class="profile-card__name">Victor Crest</h2>
+                    <p class="profile-card__age">26</p>
                 </div>
-                <div class="profile__stats">
-                    <h2 class="sr-only">User Profile Statistics</h2>
-                    <ul class="stats">
-                        <li class="stats__listitem">
-                            <p class="stats__heading">80K<span class="stats__paragraph">Followers</span></p>
-                        </li>
-                        <li class="stats__listitem">
-                            <p class="stats__heading">803K<span class="stats__paragraph">Likes</span></p>
-                        </li>
-                        <li class="stats__listitem">
-                            <p class="stats__heading">1.4K<span class="stats__paragraph">Photos</span></p>
-                        </li>
-                    </ul>
-                </div>
+                <p class="profile-card__location">London</p>
+                <h2 class="sr-only">User Profile Statistics</h2>
+                <ul class="profile-card__stats-list">
+                    <li class="profile-card__stats-listitem">
+                        <strong class="profile-card__stat">80K</strong>Followers
+                    </li>
+                    <li class="profile-card__stats-listitem">
+                        <strong class="profile-card__stat">803K</strong>Likes
+                    </li>
+                    <li class="profile-card__stats-listitem">
+                        <strong class="profile-card__stat">1.4K</strong>Photos
+                    </li>
+                </ul>
             </article>
         </main>
     </body>
